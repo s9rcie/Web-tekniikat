@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("/Arvioitavat tehtävät/Kuvat/bg.jpg");
+    background-image: url("../Kuvat/bg.jpg");
     size: 100%;
 }
 
