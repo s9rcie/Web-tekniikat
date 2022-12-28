@@ -1,0 +1,140 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+
+body {
+    background-image: url("Kuvat/bg.jpg");
+    size: 100%;
+}
+
+#infobox {
+    border-radius: 5px;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(253, 252, 252, 0.75);
+    width: 45%;
+    height: 450px;
+    border: 2px solid black;
+}
+
+#home {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.infotext {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+    font-size: 13pt;
+}
+
+#socialtitle {
+    margin-left: 30px;
+}
+
+li {
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.btn {
+    display: block;
+    width: 100px;
+    margin-left: 30px;
+    margin-bottom: 3px;
+    font-size: 13pt;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    background-color: rgb(247, 160, 160);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255, 0.75);
+    font-family: Arial;
+    border: 2px solid black;
+}
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.75);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: rgb(209, 101, 101, 0.45);
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navtext {
+    font-weight: bold;
+}
+
+#osulogo {
+    width: 400px;
+    height: 220px;
+}
+
+#perkele {
+    border: 1px solid black;
+}
