@@ -1,0 +1,10 @@
+.colorful {
+    color: red;
+    background-color: white;
+    font-weight: bold;
+}
+
+
+.showmenu {
+    display: block;
+}

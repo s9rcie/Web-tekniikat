@@ -1,0 +1,68 @@
+/* Nämä tyylimääreet kohdistuvat kaikkiin elementteihin bodyn sisällä */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /* Nämä tyylimääreet kohdistuvat kaikkiin elementteihin */
+* {
+    color: black;
+}
+
+/* NAVBAR */
+ul.navbar {
+    padding: 5px;
+    background-color: bisque;
+    display: block;
+}
+
+/* li -elementit oletuksena blockkeja, muuteteaan inlineksi, että saadaan
+samalle riville */
+.navbar li {
+    display: inline;
+    border-right: 1px solid black;
+}
+
+.navbar li:last-child {
+    border: none;
+}
+
+.navbar a {
+    padding: 5px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: red;
+}
+
+a[target="_blank"] {
+    font-weight: bold ;
+}
+
+[type="number"] {
+    border: 1px solid green;
+}
+
+ul + p {
+    border-top: 1px solid black;
+}
+
+ul ~ p {
+    color: magenta;
+}
+
+.col {
+    border: 1px dashed green;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background: rgb(130, 134, 133);
+}
