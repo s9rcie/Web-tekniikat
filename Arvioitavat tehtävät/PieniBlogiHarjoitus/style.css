@@ -1,0 +1,48 @@
+/* Jesse Ruonakoski TIK22SP */
+
+* {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+#writeName {
+    text-align: justify;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#writeNote {
+    text-align: justify;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 5px;
+    resize: none;
+}
+
+#importantNote {
+    display: block;
+    text-align: justify;
+    width: 597px;
+    border: 3px solid rgb(41, 206, 41);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+#basicNote {
+    display: inline-block;
+    text-align: justify;
+    width: 600px;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
